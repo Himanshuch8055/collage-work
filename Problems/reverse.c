@@ -2,8 +2,7 @@
 
 int main ()
 {
-    int a,b,c;
-    // ,d,e,f,g;
+    int a,b,c,d,e,f,g;
 
     printf("Enter the value:\n");
     scanf("%d",&a);
@@ -11,10 +10,10 @@ int main ()
     scanf("%d",&b);
 
     c=a+b;
-    // d=a-b;
-    // e=a*b;
-    // f=a/b;
-    // g=a%b;
+    d=a-b;
+    e=a*b;
+    f=a/b;
+    g=a%b;
 
 
     printf("%d",c);
