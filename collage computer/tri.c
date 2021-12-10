@@ -2,9 +2,9 @@
 
 int main (){
     int a, b;
-    for (int a = 0; a < 5; a++)
+    for (int a = 0; a < 10; a++)
     {
-        for (int b = 5; b > a; b--)
+        for (int b = 10; b > a; b--)
         {
             printf("#");
         }
