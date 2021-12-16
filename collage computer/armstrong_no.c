@@ -22,18 +22,18 @@ int main()
 
     printf("\n\t Reverse of a no.: %d,rev");
 
-//    arm = a1 * a1 * a1 * a2 * a2 * a2 * a3 * a3 * a3;
+    //    arm = a1 * a1 * a1 * a2 * a2 * a2 * a3 * a3 * a3;
 
-//     printf("\n\t Armstrong no.: %d", arm);
+    //     printf("\n\t Armstrong no.: %d", arm);
 
-//     if (ad == arm)
-//     {
-//         printf("\n\t Num is armstrong \n");
-//     }
-//     else
-//     {
-//         printf("\n\t Num is not armstrong:");
-//     }
+    //     if (ad == arm)
+    //     {
+    //         printf("\n\t Num is armstrong \n");
+    //     }
+    //     else
+    //     {
+    //         printf("\n\t Num is not armstrong:");
+    //     }
 
     return 0;
 }
