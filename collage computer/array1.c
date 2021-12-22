@@ -2,16 +2,31 @@
 
 int main()
 {
-    int arr[10];
-    for (int i = 0; i < 10; i++)
+    int rev, c;
+    for (int i = 1; i <= 5; i++)
     {
-        printf("Enter the arr: ");
-        scanf("%d", &arr[i]);
+        printf("Enter the array %d: ", i);
+        scanf("%d", &rev);
+        c = rev;
+        printf("%d\n", c);
+        for (int j = 10; j >=1 ; j++)
+        {
+            printf("%d", c);
+        }
+        
     }
-    for (int j = 0; j < 10; j++)
-    {
-        printf("reverse is: %d\n", arr[j] - 1);
-    }
+    // printf("\n");
+    // printf("After the reversing:- \n");
+    // printf("\n");
+    // for (int j = c ; j > 1; j--)
+    // {
+    //     printf("%d", c);
+    // }
+
+    // for (int j = 10; j >= 1; j--)
+    // {
+    //     printf("Reverse of array is %d: \n", j);
+    // }
 
     return 0;
 }
