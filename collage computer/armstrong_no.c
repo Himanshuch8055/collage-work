@@ -52,6 +52,7 @@ int main()
     }
     else
         printf("Number is NOT Armstrong.");
+
         
 
     return 0;
