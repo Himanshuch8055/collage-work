@@ -9,15 +9,9 @@ int main()
     for (a = 1; a < row; a++)
     {
         for (b = a; b < row; b++)
-        {
             printf(" ");
-        }
-
         for (b = 1; b <= (2 * a - 1); b++)
-        {
             printf("*");
-        }
-
         printf("\n");
     }
 

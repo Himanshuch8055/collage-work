@@ -2,21 +2,7 @@
 
 int main()
 {
-    // int a, b, c, sum;
-
-    // if (a == '+')
-    // {
-    //     printf("Enter first num: ");
-    //     scanf("%d", &b);
-    //     printf("Enter second num: ");
-    //     scanf("%d", &c);
-
-    //     a = b + c;
-    //     printf("sum is: ", a);
-    // }
-
     char opretion;
-    // float sum, sub, mul, div, mod;
     int num1;
     int num2;
     printf("Enter the opretion: ");
@@ -50,7 +36,6 @@ int main()
     }
     else
         printf("No case match:");
-        
 
     return 0;
 }

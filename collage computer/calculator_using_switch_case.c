@@ -2,7 +2,6 @@
 int main()
 {
     char opretion;
-    float sum, sub, mul, div, mod;
     int num1;
     int num2;
     printf("Enter the opretion: ");
@@ -17,29 +16,24 @@ int main()
     switch (opretion)
     {
     case '+':
-        sum = num1 + num2;
-        printf("sum is: %f\n", sum);
+        printf("sum is: %d\n", num1 + num2);
         break;
 
     case '-':
-        sub = num1 - num2;
-        printf("sub is: %f\n", sub);
+        printf("sub is: %d\n", num1 - num2);
         break;
 
     case '*':
-        mul = num1 * num2;
-        printf("mul is: %f\n", mul);
+        printf("mul is: %d\n", num1 * num2);
         break;
 
     case '/':
-        div = num1 / num2;
-        printf("div is: %f\n", div);
+        printf("div is: %d\n", num1 / num2);
         break;
 
     case '%':
-        mod = num1 % num2;
-        printf("mod is: %f\n", mod);
+        printf("mod is: %d\n", num1 % num2);
         break;
-    }
+        }
     return 0;
 }
