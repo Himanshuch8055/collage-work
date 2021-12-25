@@ -1,21 +1,22 @@
 #include <stdio.h>
+
 int main()
 {
     int a, b;
-    for (int a = 0; a < 1; a++)
+
+    for (a = 0; a < 10; a++)
     {
-        // printf("\n");
-        for (int b = 0; b < 1; b++)
+        // for (b = 0; b < 5; b++)
+        // {
+        //     printf(" ");
+        // }
+
+        for (b = 0; b < 2 * a - 1; b++)
         {
-            printf("        *       \n");
-            printf("       ***      \n");
-            printf("      *****     \n");
-            printf("     *******    \n");
-            printf("        *       \n");
-            printf("        *       \n");
-            printf("        *       \n");
+            printf("#");
         }
-        // printf("\n");
+
+        printf("\n");
     }
 
     return 0;
