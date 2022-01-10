@@ -8,14 +8,16 @@ int main()
     printf("3. odd Number\n");
     printf("4. Factorial of the Number\n");
     printf("5. Fabonica series\n");
-    printf("6. Sum of Natural Number\n\n");
+    printf("6. Sum of Natural Number\n");
+    printf("******************************\n");
     printf("What opretion do you want: ");
     scanf("%d", &choose);
+    printf("******************************\n");
 
     switch (choose)
     {
     case 1:
-        printf("Enter the Number: ");
+        printf("Enter the positive Number: ");
         scanf("%d", &prime);
         printf("Prime Numbers are: ");
         for (int i = 1; i <= prime; i++)
@@ -27,28 +29,38 @@ int main()
                     fact++;
             }
             if (fact == 2)
-                printf("%d ", i);
+                printf("%d, ", i);
         }
         break;
 
     case 2:
-        printf("Enter the number: ");
+        printf("Enter the positive number: ");
         scanf("%d", &prime);
-        printf("Even Number are: ");
+        if (prime < 0)
+            printf("\n\v Please enter positive number.\n");
+        else
+            printf("Even Number are: ");
         for (int i = 0; i < prime; i++)
         {
-            fact=0;
-            if (prime%2==0)
-            {
-                fact++;
-            }
-            if (fact == 2)
-            {
-                printf("%d", i);
-            }
-            
-            
+            if (i % 2 == 0)
+                printf("%d, ", i);
         }
+        break;
+
+    case 3:
+        printf("Enter the positive number: ");
+        scanf("%d", &prime);
+        if (prime < 0)
+            printf("\n\v Please enter positive number.\n");
+        else
+            printf("Even Number are: ");
+        for (int i = 0; i < prime; i++)
+        {
+            if (i % 2 != 0)
+                printf("%d, ", i);
+        }
+        break;
+        case 4:
         
         break;
     default:
