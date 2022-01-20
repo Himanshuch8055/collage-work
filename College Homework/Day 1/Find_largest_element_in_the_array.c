@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+int lasgest();
 int main()
 {
     int array[10], size, i, largest;
@@ -13,7 +13,6 @@ int main()
         printf("Enter the %d element of an Array : ", i);
         scanf("%d", &array[i]);
     }
-
     largest = array[0];
     for (i = 1; i < size; i++)
     {
